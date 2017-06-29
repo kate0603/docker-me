@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+    app:
+      container_name: app
+      build: .
+      working_dir: /data/code
+      ports:
+        - "8000:80"
+      privileged: true 
+      restart: always
+      volumes:
+        - ./LandingPage:/data/code
+      command: gunicorn -b 0.0.0.0:80 -w 2 run:app

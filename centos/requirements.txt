@@ -1,0 +1,13 @@
+gunicorn
+flask
+pymssql
+gevent
+apscheduler
+numpy
+DBUtils
+MySQL-python
+pandas
+dpark
+pymssql
+
+
