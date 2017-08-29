@@ -1,0 +1,14 @@
+uwsgi
+pandas
+flask
+flask-RESTful
+flask_sqlalchemy
+flask_httpauth
+flask-sqlacodegen
+mysqlclient
+psycopg2
+Pillow
+passlib
+requests
+gevent
+pylru

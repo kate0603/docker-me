@@ -1,0 +1,8 @@
+.idea/
+client/node_modules/
+server/web_app/static/
+server/web_app/index.html
+client/npm-debug.log
+client/manifest.json
+*.pyc
+server/web_app/tmp
